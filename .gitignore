@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+*.key
+
+# Raw / licensed data
+data/*.xlsx
+data/*.xls
+data/uploads/
+data/公司年度面板.csv
+
+# Generated outputs
+outputs/
+*.log
+
+# Personal files
+resume/
+*.docx
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
